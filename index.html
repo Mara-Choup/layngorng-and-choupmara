@@ -1,2 +1,107 @@
-# layngorng-and-choupmara
-Digital Wedding Invitation Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lay Ngorng & Choup Mara - Wedding Invitation</title>
+  <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #b89753; /* Gold accent */
+            --dark-color: #2c2c2c;
+            --bg-color: #fdfbf7; /* Soft cream */
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--dark-color);
+            font-family: 'Tangerine', serif
+            text-align: center;
+        }
+        header {
+            padding: 60px 20px;
+        }
+        h1 {
+            font-family: 'Tangerine', cursive;
+            font-size: 4rem;
+            color: var(--primary-color);
+            margin: 10px 0;
+        }
+        h2 {
+            font-weight: 300;
+            letter-spacing: 2px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+        .invitation-card {
+            max-width: 600px;
+            margin: 0 auto 50px auto;
+            background: #ffffff;
+            padding: 40px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        .photo-frame {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            border: 3px solid var(--primary-color);
+        }
+        .details {
+            margin: 30px 0;
+            line-height: 1.8;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        footer {
+            font-size: 0.9rem;
+            color: #777;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>The Wedding Invitation</h2>
+        <h1>Lay Ngorng & Choup Mara</h1>
+        <p>Together with their families, invite you to celebrate their wedding</p>
+    </header>
+
+    <div class="invitation-card">
+        <!-- Replace 'couple.jpg' with your actual image filename -->
+        <img src="couple.jpg" alt="Lay Ngorng & Choup Mara" class="photo-frame">
+        
+        <div class="details">
+            <h3>Save the Date</h3>
+            <p><strong>Date:</strong> Sunday, November 22, 2026</p>
+            <p><strong>Morning Program:</strong> 9:00 A.M - 11:40 A.M</p>
+             <p><strong>Evening Dinning:</strong> 5:00 P.M - 9:00 P.M</p>
+            <p><strong>Venue:</strong> ព្រះវិហារសេវេនដេយអាត់វេនទីស្ទខេត្តតាកែវ (Takeo Seventh-day Adventist Church)</p>
+            
+            <a href="https://www.google.com/maps/place/%E1%9E%96%E1%9F%92%E1%9E%9A%E1%9F%87%E1%9E%9C%E1%9E%B7%E1%9E%A0%E1%9E%B6%E1%9E%9A%E2%80%8B%E1%9E%9F%E1%9F%81%E1%9E%9C%E1%9F%81%E1%9E%93%E1%9E%8A%E1%9F%81%E1%9E%99%E1%9E%A2%E1%9E%B6%E1%9E%8F%E1%9F%8B%E1%9E%9C%E1%9F%81%E1%9E%93%E1%9E%91%E1%9E%B8%E1%9E%9F%E1%9F%92%E1%9E%91+%E1%9E%81%E1%9F%81%E1%9E%8F%E1%9F%92%E1%9E%8F%E1%9E%8F%E1%9E%B6%E1%9E%80%E1%9F%82%E1%9E%9C%E2%80%8B+Takeo+SDA+Church/@10.988838,104.7845849,17z/data=!3m1!4b1!4m6!3m5!1s0x3109774706a2024b:0xf595f9acf627d38!8m2!3d10.988838!4d104.7845849!16s%2Fg%2F11jvmqc2_4?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn">View Location on Map</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>We look forward to celebrating with you!</p>
+    </footer>
+
+</body>
+</html>
